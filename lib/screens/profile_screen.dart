@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class ComplianceScreen extends StatefulWidget {
-  const ComplianceScreen({super.key});
+class ProfileScreen extends StatefulWidget {
+  const ProfileScreen({super.key});
 
   @override
-  State<ComplianceScreen> createState() => _ComplianceScreenState();
+  State<ProfileScreen> createState() => _ProfileScreenState();
 }
 
-class _ComplianceScreenState extends State<ComplianceScreen> {
+class _ProfileScreenState extends State<ProfileScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -24,7 +24,7 @@ class _ComplianceScreenState extends State<ComplianceScreen> {
             elevation: 3,
           )),
       body: Container(
-        child: Center(child: Text('Hi There')),
+        child: Center(child: Text('Profile Screen')),
       ),
     );
   }
