@@ -1,3 +1,4 @@
+import 'package:compliance_tracker/screens/compliance_screen.dart';
 import 'package:compliance_tracker/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -22,7 +23,7 @@ class _IndexScreenState extends State<IndexScreen> {
 
   final List<Widget> _pages = [
     const HomeScreen(),
-    const Text('Screen 2'),
+    const ComplianceScreen(),
     const Text('Screen 3')
   ];
 
