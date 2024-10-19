@@ -1,3 +1,4 @@
+import 'package:compliance_tracker/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 
 class IndexScreen extends StatefulWidget {
@@ -20,7 +21,7 @@ class _IndexScreenState extends State<IndexScreen> {
   }
 
   final List<Widget> _pages = [
-    const Text('Screen 1'),
+    const HomeScreen(),
     const Text('Screen 2'),
     const Text('Screen 3')
   ];
