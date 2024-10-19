@@ -1,5 +1,4 @@
-import 'dart:convert';
-
+import 'package:compliance_tracker/screens/index_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -14,6 +13,9 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
+    Future.delayed(Duration(seconds: 2), () {
+      Get.offAll(() => IndexScreen());
+    });
   }
 
   @override
