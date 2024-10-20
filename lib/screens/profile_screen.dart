@@ -12,7 +12,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: PreferredSize(
-          preferredSize: Size.fromHeight(50),
+          preferredSize: const Size.fromHeight(50),
           child: AppBar(
             backgroundColor: const Color.fromRGBO(255, 255, 255, 1),
             centerTitle: true,
@@ -20,11 +20,11 @@ class _ProfileScreenState extends State<ProfileScreen> {
             //   'assets/images/Compliance_tracker.png',
             //   width: 100,
             // ),
-            title: Text('Compliance Checker'),
+            title: const Text('Compliance Checker'),
             elevation: 3,
           )),
       body: Container(
-        child: Center(child: Text('Profile Screen')),
+        child: const Center(child: Text('Profile Screen')),
       ),
     );
   }

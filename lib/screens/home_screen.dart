@@ -12,7 +12,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: PreferredSize(
-          preferredSize: Size.fromHeight(50),
+          preferredSize: const Size.fromHeight(50),
           child: AppBar(
             // backgroundColor: const Color.fromRGBO(238, 242, 248, 1),
             centerTitle: true,
@@ -20,7 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
             //   'assets/images/Compliance_tracker.png',
             //   width: 100,
             // ),
-            title: Text('Compliance Checker'),
+            title: const Text('Compliance Checker'),
             elevation: 3,
           )),
     );

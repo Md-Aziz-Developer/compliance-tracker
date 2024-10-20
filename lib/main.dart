@@ -16,8 +16,8 @@ class MyApp extends StatelessWidget {
       title: 'Compliance Checker',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme:
-            ColorScheme.fromSeed(seedColor: Color.fromRGBO(42, 85, 142, 1)),
+        colorScheme: ColorScheme.fromSeed(
+            seedColor: const Color.fromRGBO(42, 85, 142, 1)),
         useMaterial3: true,
       ),
       home: const SplashScreen(),
