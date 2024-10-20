@@ -12,7 +12,7 @@ class _ComplianceScreenState extends State<ComplianceScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: PreferredSize(
-          preferredSize: Size.fromHeight(50),
+          preferredSize: const Size.fromHeight(50),
           child: AppBar(
             backgroundColor: const Color.fromRGBO(255, 255, 255, 1),
             centerTitle: true,
@@ -20,12 +20,10 @@ class _ComplianceScreenState extends State<ComplianceScreen> {
             //   'assets/images/Compliance_tracker.png',
             //   width: 100,
             // ),
-            title: Text('Compliance Checker'),
+            title: const Text('Compliance Checker'),
             elevation: 3,
           )),
-      body: Container(
-        child: Center(child: Text('Hi There')),
-      ),
+      body: const Center(child: Text('Hi There')),
     );
   }
 }
