@@ -23,9 +23,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
             title: const Text('Compliance Checker'),
             elevation: 3,
           )),
-      body: Container(
-        child: const Center(child: Text('Profile Screen')),
-      ),
+      body: const Center(child: Text('Profile Screen')),
     );
   }
 }

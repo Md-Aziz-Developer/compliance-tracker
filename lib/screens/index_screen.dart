@@ -33,7 +33,8 @@ class _IndexScreenState extends State<IndexScreen> {
     return Scaffold(
       body: _pages[_currentIndex],
       bottomNavigationBar: Container(
-        decoration: BoxDecoration(border: Border(top: BorderSide(width: 1))),
+        decoration:
+            const BoxDecoration(border: Border(top: BorderSide(width: 1))),
         child: BottomNavigationBar(
           type: BottomNavigationBarType.fixed,
           selectedFontSize: 20,
